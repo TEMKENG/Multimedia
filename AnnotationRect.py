@@ -1,9 +1,9 @@
+import os
 import random
 import numpy as np
 from PIL import Image
 from matplotlib.patches import Rectangle as rectangle
 import matplotlib.pyplot as plt
-import os
 
 
 class AnnotationRect:
@@ -48,26 +48,23 @@ class AnnotationRect:
         for r, d, f in os.walk("./dataset_mmp/train/"):
             for file in f:
                 if ".jpg" in file:
-                    print(os.path.join(r,file))
                     image = os.path.join(r,file)
                     annotation_files = self.reader_ground_truth(image.replace("jpg", "gt_data.txt"))
                     self.dic.update({image: annotation_files})
 
     def select_and_draw(self):
         self.read_images()
-        f = []
-        for image in self.dic.keys():
-            f.append(image)
-        f = random.choices(f)
-        annotation_names = self.dic.get(f[0])
-        image = Image.open(f[0])
-        image.save("TEMKENG.png")
-        ax = plt.figure(1).add_subplot(111)
+        image = random.choice(list(self.dic.keys()))
+        annotation_names = self.dic.get(image)
+        image =Image.open(image)
+        fig = plt.figure()
+        ax = fig.add_subplot(111)
         ax.imshow(image)
+        plt.axis('off')
         for annotation_name in annotation_names:
             ax.add_patch(rectangle((annotation_name.x1, annotation_name.y1), annotation_name.get_width(),
                                    annotation_name.get_height(),linewidth=3,edgecolor='r',facecolor='none'))
-
+        fig.savefig('TEMKENG_with_rectangle.png')
         plt.show()
 
     def anchor_grid(self, fmap_cols, fmap_rows, scale_factor=1.0, scale=[], aspect_ratios=[]):
@@ -97,3 +94,4 @@ b.select_and_draw()
 f = b.anchor_grid(1, 2, 8, )
 d = np.zeros((2, 2, 1, 2, 4))
 ds = [1, 5, 5, 5, 5, 5, 8, 5]
+
