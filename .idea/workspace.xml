@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/AnnotationRect.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
+              <caret line="213" selection-start-line="213" selection-end-line="213" />
               <folding>
                 <element signature="e#224#381#0" />
                 <element signature="e#431#569#0" />
@@ -31,6 +31,13 @@
                 <element signature="e#2353#2571#0" />
                 <element signature="e#2627#2807#0" />
                 <element signature="e#2857#2937#0" />
+                <element signature="e#3355#3512#0" />
+                <element signature="e#3562#3700#0" />
+                <element signature="e#3735#3759#0" />
+                <element signature="e#3795#3819#0" />
+                <element signature="e#3853#3896#0" />
+                <element signature="e#3951#4169#0" />
+                <element signature="e#4212#4385#0" />
               </folding>
             </state>
           </provider>
@@ -103,7 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1558791168292</updated>
       <workItem from="1558791170102" duration="1547000" />
-      <workItem from="1558803647732" duration="7000" />
+      <workItem from="1558803647732" duration="711000" />
+      <workItem from="1558962467593" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="Dataset pasing and &#10;The anchor grid&#10;Intersection over union">
       <created>1558791397771</created>
@@ -116,13 +124,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1554000" />
+    <option name="totallyTimeSpent" value="2302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -136,8 +144,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -199,7 +207,7 @@
     <entry file="file://$PROJECT_DIR$/AnnotationRect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
           <folding>
             <element signature="e#224#381#0" />
             <element signature="e#431#569#0" />
@@ -213,6 +221,13 @@
             <element signature="e#2353#2571#0" />
             <element signature="e#2627#2807#0" />
             <element signature="e#2857#2937#0" />
+            <element signature="e#3355#3512#0" />
+            <element signature="e#3562#3700#0" />
+            <element signature="e#3735#3759#0" />
+            <element signature="e#3795#3819#0" />
+            <element signature="e#3853#3896#0" />
+            <element signature="e#3951#4169#0" />
+            <element signature="e#4212#4385#0" />
           </folding>
         </state>
       </provider>
