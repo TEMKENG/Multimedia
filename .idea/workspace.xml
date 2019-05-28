@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4de9aa4-60c1-497b-8b51-deac66af3670" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Multimedia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Multimedia.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnnotationRect.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnnotationRect.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnnotationRect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="176" column="84" selection-start-line="176" selection-start-column="84" selection-end-line="176" selection-end-column="84" />
+            <state relative-caret-position="549">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
               <folding>
                 <element signature="e#224#381#0" />
                 <element signature="e#431#569#0" />
@@ -26,18 +27,6 @@
                 <element signature="e#722#765#0" />
                 <element signature="e#820#1038#0" />
                 <element signature="e#1081#1254#0" />
-                <element signature="e#1291#1613#0" />
-                <element signature="e#1654#2248#0" />
-                <element signature="e#2353#2571#0" />
-                <element signature="e#2627#2807#0" />
-                <element signature="e#2857#2937#0" />
-                <element signature="e#3355#3512#0" />
-                <element signature="e#3562#3700#0" />
-                <element signature="e#3735#3759#0" />
-                <element signature="e#3795#3819#0" />
-                <element signature="e#3853#3896#0" />
-                <element signature="e#3951#4169#0" />
-                <element signature="e#4212#4385#0" />
               </folding>
             </state>
           </provider>
@@ -99,6 +88,30 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Multimedia" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -112,7 +125,7 @@
       <workItem from="1558791170102" duration="1547000" />
       <workItem from="1558803647732" duration="711000" />
       <workItem from="1558962467593" duration="491000" />
-      <workItem from="1559078215543" duration="1393000" />
+      <workItem from="1559078215543" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="Dataset pasing and &#10;The anchor grid&#10;Intersection over union">
       <created>1558791397771</created>
@@ -125,7 +138,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4142000" />
+    <option name="totallyTimeSpent" value="4813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -144,8 +157,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.9574468" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.9574468" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32907802" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" side_tool="true" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -231,8 +245,8 @@
     <entry file="file://$PROJECT_DIR$/Aufgabe1.py" />
     <entry file="file://$PROJECT_DIR$/AnnotationRect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="176" column="84" selection-start-line="176" selection-start-column="84" selection-end-line="176" selection-end-column="84" />
+        <state relative-caret-position="549">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
           <folding>
             <element signature="e#224#381#0" />
             <element signature="e#431#569#0" />
@@ -241,18 +255,6 @@
             <element signature="e#722#765#0" />
             <element signature="e#820#1038#0" />
             <element signature="e#1081#1254#0" />
-            <element signature="e#1291#1613#0" />
-            <element signature="e#1654#2248#0" />
-            <element signature="e#2353#2571#0" />
-            <element signature="e#2627#2807#0" />
-            <element signature="e#2857#2937#0" />
-            <element signature="e#3355#3512#0" />
-            <element signature="e#3562#3700#0" />
-            <element signature="e#3735#3759#0" />
-            <element signature="e#3795#3819#0" />
-            <element signature="e#3853#3896#0" />
-            <element signature="e#3951#4169#0" />
-            <element signature="e#4212#4385#0" />
           </folding>
         </state>
       </provider>
