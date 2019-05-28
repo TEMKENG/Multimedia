@@ -78,6 +78,7 @@ class AnnotationRect:
         dy = min(rect1.y2, rect2.y2) - max(rect1.y1, rect2.y1)
         if (dx >= 0) and (dy >= 0):
             return dx * dy
+        return 0
 
     def area_union(self, rect1, rect2):
         return rect1.get_area() + rect2.get_area() - self.area_interection(rect1, rect2)
